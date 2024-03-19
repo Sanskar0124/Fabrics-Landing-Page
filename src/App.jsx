@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About/About";
 import Companies from "./components/Companies/Companies";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -19,6 +20,7 @@ function App() {
       </div>
       {/* <Companies /> */}
       {/* <Residencies /> */}
+      <About />
       <Upholstery />
       <Curtains />
       <Contact />

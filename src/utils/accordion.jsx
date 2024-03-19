@@ -7,6 +7,11 @@ import { AiOutlineSound } from "react-icons/ai";
 import { MdCancel, MdAnalytics } from "react-icons/md";
 import { AiOutlineFileProtect } from "react-icons/ai";
 
+import { FaBirthdayCake } from "react-icons/fa";
+import { GiJourney } from "react-icons/gi";
+import { FaEye } from "react-icons/fa";
+
+
 const data = [
   {
     icon: <FaHandHoldingWater />,
@@ -48,4 +53,26 @@ const curtainsData = [
       "Curtains with thermal insulation properties, helping to regulate indoor temperature by trapping heat in the winter and blocking out heat in the summer, resulting in energy savings and increased comfort.",
   },
 ];
-export { data, curtainsData };
+
+const aboutusData = [
+  {
+    icon: <FaBirthdayCake />,
+    heading: "Since 2003",
+    detail:
+      "Bringing 20 years of fabric expertise from Dubai to India, renowned for premium quality and dedication.",
+  },
+  {
+    icon: <GiJourney />,
+    heading: "Journey",
+    detail:
+      "With over 20 years in the fabric industry, Dolphin Furnishing has earned trust and loyalty, dominating Dubai's fabric scene with luxury and quality.",
+  },
+  {
+    icon: <FaEye />,
+    heading: "Our Vision",
+    detail:
+      "Our vision is to inspire creativity and elevate living spaces by providing the finest tailored fabrics, empowering individuals to express their unique style with confidence.",
+  },
+];
+
+export { data, curtainsData, aboutusData };
