@@ -18,43 +18,43 @@ const Hero = () => {
                 type: "ease-in",
               }}
             >
-              Discover <br />
-              Most Suitable
-              <br /> Property
+              Discover<br />
+              fabric elegance
+              <br /> here
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span>Discover fabrics with ease</span>
+            <span>Forget the hassle of finding your perfect residence</span>
           </div>
 
-          <div className="flexCenter search-bar">
+          {/* <div className="flexCenter search-bar">
             <HiLocationMarker color="var(--blue)" size={25} />
             <input type="text" />
             <button className="button">Search</button>
-          </div>
+          </div> */}
 
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={8800} end={9000} duration={4} /> <span>+</span>
+                <CountUp start={0} end={25} duration={2} /> <span>+</span>
+              </span>
+              <span className="secondaryText">Catlogs</span>
+            </div>
+            <div className="flexColCenter stat">
+              <span>
+                <CountUp start={0} end={1500} duration={2} /> <span>+</span>
               </span>
               <span className="secondaryText">Premium Product</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={1950} end={2000} duration={4} /> <span>+</span>
+                <CountUp start={0} end={2000} duration={2} /> <span>+</span>
               </span>
               <span className="secondaryText">Happy Customer</span>
             </div>
 
-            <div className="flexColCenter stat">
-              <span>
-                <CountUp end={28} /> <span>+</span>
-              </span>
-              <span className="secondaryText">Awards Winning</span>
-            </div>
           </div>
         </div>
 
