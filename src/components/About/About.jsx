@@ -23,7 +23,7 @@ const About = () => {
         {/* left side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="https://github.com/Sanskar0124/Fabrics-Landing-Page/blob/master/assets/images/fabrics/COVER%20IMAGE-19.png?raw=true" alt="" />
+            <img src="https://github.com/Sanskar0124/Fabrics-Landing-Page/blob/master/assets/images/fabrics/COVER%20IMAGE-01.png?raw=true" alt="" />
           </div>
         </div>
 
