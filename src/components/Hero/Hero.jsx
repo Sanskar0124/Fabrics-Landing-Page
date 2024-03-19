@@ -69,7 +69,7 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <Image src={"https://bitbucket.org/sanskar0124/landing-page/raw/21511b5f3c27e07882e25810eb8a58220cde2348/assets/gifs/WhatsAppVideo2024-03-16at18.03.51_5141d442-ezgif.com-video-to-gif-converter.gif"} alt="houses" />
+            <img src="https://github.com/Sanskar0124/Fabrics-Landing-Page/blob/master/assets/gifs/WhatsAppVideo2024-03-16at18.03.51_5141d442-ezgif.com-video-to-gif-converter.gif?raw=true" alt="houses" />
           </motion.div>
         </div>
       </div>
