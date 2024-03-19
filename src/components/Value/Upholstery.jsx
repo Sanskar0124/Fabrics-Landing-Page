@@ -12,31 +12,26 @@ import {
   MdOutlineArrowDropDown,
   MdOutlineArrowDropDownCircle,
 } from "react-icons/md";
-import data from "../../utils/accordion.jsx";
-import "./Value.css";
+import { data } from "../../utils/accordion.jsx";
+import "./Upholstery.css";
 // Demo styles, see 'Styles' section below for some notes on use.
 
-const Value = () => {
+const Upholstery = () => {
   return (
     <section id="value" className="v-wrapper">
       <div className="paddings innerWidth flexCenter v-container">
         {/* left side */}
-        <div className="v-left">
-          <div className="image-container">
-            <img src="./value.png" alt="" />
-          </div>
-        </div>
 
         {/* right */}
-        <div className="flexColStart v-right">
-          <span className="orangeText">Our Value</span>
+        <div className="flexColStart v-left">
+          <span className="orangeText">Introducing Upholstery Excellence</span>
 
-          <span className="primaryText">Value We Give to You</span>
+          <span className="primaryText">Tailored for You</span>
 
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you.
+            Unveil our dedication to superior craftsmanship through fabrics curated to suit your every requirement.
             <br />
-            We beleive a good blace to live can make your life better
+            Immerse yourself in the transformative essence of premium textiles, elevating your living space and enriching your lifestyle.
           </span>
 
           <Accordion
@@ -50,7 +45,7 @@ const Value = () => {
                 <AccordionItem className={`accordionItem ${className}`} uuid={i} key={i}>
                   <AccordionItemHeading>
                     <AccordionItemButton className="flexCenter accordionButton ">
-                        {/* just for getting state of item */}
+                      {/* just for getting state of item */}
                       <AccordionItemState>
                         {({ expanded }) =>
                           expanded
@@ -77,9 +72,16 @@ const Value = () => {
             })}
           </Accordion>
         </div>
+
+
+        <div className="v-right">
+          <div className="image-container">
+            <img src="https://github.com/Sanskar0124/Fabrics-Landing-Page/blob/master/assets/images/fabrics/COVER%20IMAGE-18.png?raw=true" alt="" />
+          </div>
+        </div>
       </div>
     </section>
   );
 };
 
-export default Value;
+export default Upholstery;
