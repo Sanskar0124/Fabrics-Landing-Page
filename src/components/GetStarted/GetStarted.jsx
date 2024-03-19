@@ -12,7 +12,7 @@ const GetStarted = () => {
             Discover your perfect fabric residence today
           </span>
           <button className="button" href>
-            <a href="https://www.enterprise.dolphinfurnishingindia.com/auth/sign-up">Get Started</a>
+            <a href="https://enterprise.dolphinfurnishingindia.com/auth/sign-up" target="_blank">Get Started</a>
           </button>
         </div>
       </div>
