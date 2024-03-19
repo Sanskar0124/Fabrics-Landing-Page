@@ -1,8 +1,18 @@
 import "./Hero.css";
+import { useState } from 'react'
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
+import Typewriter from 'typewriter-effect';
+
 const Hero = () => {
+  const [sentence, setSentence] = useState(
+    [
+      'Decorating Your Home',
+      'Step into Elegance',
+      'The Place Where Comfort Meets Style'
+    ]
+  )
   return (
     <section className="hero-wrapper">
       <div className="paddings innerWidth flexCenter hero-container">
@@ -23,6 +33,17 @@ const Hero = () => {
               <br /> here
             </motion.h1>
           </div>
+
+          <div style={{ fontSize: '2rem', color: '#A47434', fontWeight: 'bold' }}>
+            <Typewriter
+              options={{
+                strings: sentence,
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
+
           <div className="flexColStart secondaryText flexhero-des">
             <span>Discover fabrics with ease</span>
             <span>Forget the hassle of finding your perfect residence</span>

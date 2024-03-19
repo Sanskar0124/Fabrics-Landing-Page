@@ -18,7 +18,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <section id="value" className="v-wrapper">
+    <section id="about" className="v-wrapper">
       <div className="paddings innerWidth flexCenter v-container">
         {/* left side */}
         <div className="v-left">

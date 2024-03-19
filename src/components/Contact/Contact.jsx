@@ -2,7 +2,9 @@ import React from "react";
 import "./Contact.css";
 import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
-import {HiChatBubbleBottomCenter} from 'react-icons/hi2'
+import { HiChatBubbleBottomCenter } from 'react-icons/hi2'
+import { FaWhatsapp } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
 const Contact = () => {
   return (
     <div id="contact-us" className="c-wrapper">
@@ -13,7 +15,7 @@ const Contact = () => {
           <span className="primaryText">Easy to contact us</span>
           <span className="secondaryText">
             We always ready to help by providijng the best services for you. We
-            beleive a good blace to live can make your life better{" "}
+            beleive a good place to live can make your life better{" "}
           </span>
 
           <div className="flexColStart contactModes">
@@ -26,23 +28,23 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+91 9152348001</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Call now</div>
+                <a className="flexCenter button" href="tel:+919152348001">Call</a>
               </div>
 
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <BsFillChatDotsFill size={25} />
+                    <FaWhatsapp size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Chat</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="primaryText">Whatsapp</span>
+                    <span className="secondaryText">+91 9152348001</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Chat now</div>
+                <a className="flexCenter button" href="https://wa.me/919152348001">Message</a>
               </div>
             </div>
 
@@ -51,14 +53,14 @@ const Contact = () => {
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <BsFillChatDotsFill size={25} />
+                    <MdOutlineMail size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="primaryText">Email</span>
+                    <span className="secondaryText"></span>
                   </div>
                 </div>
-                <div className="flexCenter button">Video Call now</div>
+                <a className="flexCenter button" href="mailto:sales@dolphinfurnishingindia.com">Mail</a>
               </div>
 
               <div className="flexColCenter mode">
@@ -68,10 +70,10 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Message</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+91 9152348001</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Message now</div>
+                <a className="flexCenter button" href="sms:+919152348001">SMS</a>
               </div>
             </div>
           </div>
@@ -80,7 +82,7 @@ const Contact = () => {
         {/* right side */}
         <div className="flexEnd c-right">
           <div className="image-container">
-            <img src="./contact.jpg" alt="" />
+            <img src="https://github.com/Sanskar0124/Fabrics-Landing-Page/blob/master/assets/images/fabrics/COVER%20IMAGE-14.png?raw=true" alt="" />
           </div>
         </div>
       </div>
