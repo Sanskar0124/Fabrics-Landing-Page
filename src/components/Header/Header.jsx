@@ -31,7 +31,7 @@ const Header = () => {
             <a href="#contact-us">Contact Us</a>
             <a href="#get-started">Get Started</a>
             <button className="button">
-              <a href="https://enterprise.dolphinfurnishingindia.com/auth/sign-in" target="_blank">Sgin in</a>
+              <a href="https://enterprise.dolphinfurnishingindia.com/auth/sign-in" target="_blank">Sign in</a>
             </button>
           </div>
         </OutsideClickHandler>
